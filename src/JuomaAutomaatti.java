@@ -114,7 +114,7 @@ public class JuomaAutomaatti {
 
 			if (!omaKone.onnistuuko()) {
 				System.out.println(
-						"Hups! Tapahtui virhe - juoman teko ei onnistu. Kiitos kuitenkin maksustasi.:)");
+						"Hups! Tapahtui virhe - juoman teko ei onnistu. Kiitos kuitenkin maksustasi.");
 				System.exit(0);
 			}
 			
