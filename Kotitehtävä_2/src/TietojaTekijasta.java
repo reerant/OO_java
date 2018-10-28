@@ -18,7 +18,7 @@ public class TietojaTekijasta extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					TietojaTekijasta frame = new TietojaTekijasta();
+					TietojaTekijasta frame = new TietojaTekijasta("Tietoja tekijästä");
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
