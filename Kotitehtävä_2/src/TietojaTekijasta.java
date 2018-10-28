@@ -18,7 +18,7 @@ public class TietojaTekijasta extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					TietojaTekijasta frame = new TietojaTekijasta("Tietoja tekijästä");
+					TietojaTekijasta frame = new TietojaTekijasta();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -31,7 +31,7 @@ public class TietojaTekijasta extends JFrame {
 	 * Create the frame.
 	 */
 	public TietojaTekijasta() {
-		
+		setTitle("Tietoja tekijästä");
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
