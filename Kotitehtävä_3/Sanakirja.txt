@@ -1,0 +1,4 @@
+koira = dog
+kissa = cat
+talo = house
+ihminen = human
